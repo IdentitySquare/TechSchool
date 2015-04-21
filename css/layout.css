@@ -23,6 +23,9 @@ body { background: #181d21; }
    opacity: 0;
 }
 
+.text-center {
+  text-align: center;
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -164,7 +167,7 @@ ul#nav li.current a { color: #fff; }
 	color: #676e73;
    width: 83%;
    text-align: center;
-   margin: 54px auto 24px auto;
+   margin: 54px auto 60px auto;
 }
 .hero-text h1 {
    font: 40px/1.2em 'montserrat-regular', sans-serif; 
@@ -195,7 +198,7 @@ ul#nav li.current a { color: #fff; }
 /* Hero CTA Buttons */
 #hero .buttons {
    text-align: center;
-   margin: 0 0 18px 0;
+   margin: 0 0 50px 0;
 }
 #hero .buttons .button {
    font: 14px/24px 'montserrat-bold', sans-serif;
@@ -675,7 +678,7 @@ ul.features li:nth-child(even) { }
 #mc_embed_signup:after {
     clear: both;
 }
-#mc_embed_signup input[type="submit"] {
+#mc_embed_signup input[type="submit"], #mc_embed_signup button[type="submit"] {
    float: right;
    height: 60px;
    margin: 0;
