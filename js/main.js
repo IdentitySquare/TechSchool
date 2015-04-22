@@ -124,7 +124,7 @@
   	}, { offset: 'bottom-in-view' });
 
   	$('.js #subscribe').waypoint(function() {
-   	$('.js #subscribe input[type="email"]').addClass( 'animated fadeInLeftBig show' ); 
+   	  $('.js #subscribe input[type="email"]').addClass( 'animated fadeInLeftBig show' ); 
     	$('.js #subscribe button[type="submit"]').addClass( 'animated fadeInRightBig show' );   
   	}, { offset: 'bottom-in-view' });
 

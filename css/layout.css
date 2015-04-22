@@ -19,7 +19,7 @@ body { background: #181d21; }
 /* for css animations */
 .show { opacity: 1; }
 .js #mc_embed_signup input[type="email"],
-.js #mc_embed_signup input[type="submit"] {
+.js #mc_embed_signup button[type="submit"] {
    opacity: 0;
 }
 
@@ -678,7 +678,7 @@ ul.features li:nth-child(even) { }
 #mc_embed_signup:after {
     clear: both;
 }
-#mc_embed_signup input[type="submit"], #mc_embed_signup button[type="submit"] {
+#mc_embed_signup button[type="submit"] {
    float: right;
    height: 60px;
    margin: 0;
